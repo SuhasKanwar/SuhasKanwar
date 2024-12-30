@@ -40,15 +40,9 @@ I am a passionate developer with a knack for building dynamic web applications a
 
 ---
 
-## 🌐 Let's Connect!  
+## 🌐 Let's Connect!
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/suhas-kanwar-suhaskanwar-bh3-4a3a09291/)  
-[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/SuhasKanwar)  
-[![LeetCode](https://img.shields.io/badge/-LeetCode-FFA116?style=flat&logo=leetcode&logoColor=black)](https://leetcode.com/u/Suhas_Kanwar/)  
-[![Email](https://img.shields.io/badge/-Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:suhas.kanwar@gmail.com)  
-
----
-
-💡 _"Code is like humor. When you have to explain it, it’s bad."_  
-
----
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/suhas-kanwar-suhaskanwar-bh3-4a3a09291/)
+[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/SuhasKanwar)
+[![LeetCode](https://img.shields.io/badge/-LeetCode-FFA116?style=flat&logo=leetcode&logoColor=black)](https://leetcode.com/u/Suhas_Kanwar/)
+[![Email](https://img.shields.io/badge/-Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:suhas.kanwar@gmail.com)
