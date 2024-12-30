@@ -84,7 +84,3 @@ I am a passionate developer with a knack for building dynamic web applications a
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=SuhasKanwar&color=blue&style=flat-square&label=Profile+Views" alt="Profile views" />
 </p>
-
-<p align="center">
-  <em>Let's build something amazing together! 🚀</em>
-</p>
