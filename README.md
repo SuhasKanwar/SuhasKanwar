@@ -1,6 +1,6 @@
 # 👋 Hello, I'm Suhas Kanwar!
 
-<div align="center">
+<div>
   <img src="https://img.shields.io/badge/2nd%20Year%20B.Tech%20CSE%20Student-blue?style=for-the-badge" alt="2nd Year B.Tech CSE Student"/>
 </div>
 
