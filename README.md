@@ -12,17 +12,6 @@
 
 I am a passionate developer with a knack for building dynamic web applications and exploring AI/ML solutions. With a strong foundation in programming, web development, and data analysis, I am committed to delivering impactful projects that solve real-world problems.
 
-<details>
-<summary>🌟 Click to see what drives me</summary>
-
-- 💡 Innovative problem-solving
-- 🤝 Collaborative teamwork
-- 📚 Continuous learning
-- 🎯 Goal-oriented approach
-- 🌐 Creating impactful web solutions
-
-</details>
-
 ## 🛠️ Technical Skills
 
 <table>
