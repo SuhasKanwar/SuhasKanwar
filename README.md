@@ -7,7 +7,7 @@
 </div>
 
 <p align="center">
-  <img src="https://via.placeholder.com/800x200.png?text=Welcome+to+My+Profile" alt="Profile Banner" width="100%"/>
+  <img src="https://github.com/user-attachments/assets/a3f34faf-34b6-450f-818a-7dd19b3b39c5" alt="Profile Banner" width="100%"/>
 </p>
 
 ## 🚀 About Me
