@@ -7,7 +7,6 @@
 <div align="center">
   <img src="https://img.shields.io/badge/Full--Stack%20Developer-blueviolet?style=for-the-badge" alt="Full-Stack Developer"/>
   <img src="https://img.shields.io/badge/Web%20%26%20AI%20Engineer-orange?style=for-the-badge" alt="Web & AI Engineer"/>
-  <img src="https://img.shields.io/badge/BML%20Munjal%20University%20CGPA-9.22-brightgreen?style=for-the-badge" alt="CGPA"/>
 </div>
 
 ---
