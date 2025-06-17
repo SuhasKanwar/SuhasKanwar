@@ -63,6 +63,9 @@ I'm a **Full-Stack Developer** passionate about creating powerful AI/ML applicat
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=SuhasKanwar&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
+  <br/>
+  <br/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SuhasKanwar&theme=tokyonight" alt="GitHub Streak" />
 </div>
 
 ---
