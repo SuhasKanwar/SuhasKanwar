@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Suhas Kanwar</h1>
-<h3 align="center">🚀 Full-Stack Web & AI/ML Developer | DevOps | MLOps | Blockchain | Generative AI | Agentic AI | Blockchain</h3>
+<h3 align="center">🚀 Full-Stack Web & AI/ML Developer | DevOps | MLOps | Blockchain | Generative AI | Agentic AI</h3>
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=36BCF7&center=true&vCenter=true&width=435&lines=AI%2FML+Developer+%F0%9F%94%AE;Full-Stack+Engineer+%F0%9F%96%A5%EF%B8%8F;Loves+Hackathons+%F0%9F%94%A5;Building+Smart+Web3+Apps+%F0%9F%92%BB;Always+learning+something+new+%F0%9F%9A%80" />
