@@ -83,6 +83,4 @@ I'm a **Full-Stack Developer** passionate about creating powerful AI/ML applicat
   <img src="https://komarev.com/ghpvc/?username=SuhasKanwar&color=blue&style=flat-square&label=Profile+Views" alt="Profile views" />
 </p>
 
-<p align="center">
-  <img src="https://activity-graph.herokuapp.com/graph?username=SuhasKanwar&theme=dracula" alt="GitHub activity graph" />
-</p>
+[![Suhas's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=SuhasKanwar&theme=github-compact)](https://github.com/ashutosh00710/github-readme-activity-graph)
