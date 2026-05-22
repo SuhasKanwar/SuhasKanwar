@@ -108,6 +108,30 @@ I'm a **Full-Stack Developer** passionate about creating powerful AI/ML applicat
 
 ---
 
+## ⚔️ Competitive Programming
+
+<div align="center">
+
+<a href="https://leetcode.com/u/Suhas_Kanwar/">
+  <img 
+    src="https://leetcard.jacoblin.cool/Suhas_Kanwar?theme=dark&font=Fira%20Code&ext=heatmap&border=0&radius=10" 
+    width="48%" 
+    alt="Suhas Kanwar LeetCode Stats" 
+  />
+</a>
+
+<a href="https://codeforces.com/profile/suhas.kanwar">
+  <img 
+    src="https://codeforces-readme-stats.vercel.app/api/card?username=suhas.kanwar&theme=github_dark" 
+    width="48%" 
+    alt="Codeforces Stats"
+  />
+</a>
+
+</div>
+
+---
+
 ## 📬 Let's Connect
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/suhas-kanwar-4a3a09291/)
