@@ -9,14 +9,18 @@
 
 ## 🚀 About Me
 
-I'm a **Full-Stack Developer** passionate about creating powerful AI/ML applications, scalable web apps, and decentralized financial platforms. Currently pursuing **B.Tech in Computer Science Engineering** at BML Munjal University with a **9.09 CGPA**. With a solid grasp of **MERN stack**, **Next.js**, **Python**, **Solidity**, and **Agentic AI**, I love building real-world solutions — from multimodal AI assistants to secure blockchain ecosystems.
+I'm a Software Engineer and AI developer passionate about building intelligent, scalable systems. My interests span full-stack engineering, multimodal AI, distributed systems, cloud infrastructure, and blockchain technologies.
+
+Currently pursuing a **B.Tech in Computer Science Engineering** at **BML Munjal University (CGPA: 9.09)**, I've built production-ready AI systems, cloud-native applications, and decentralized finance platforms while working across startups and research projects.
+
+I enjoy solving challenging engineering problems—from large-scale backend systems and autonomous AI agents to computer vision, RAG pipelines, and developer infrastructure.
 
 ---
 
 ## 🧠 Areas of Expertise
 
-- 🕸️ Full-Stack Web Development (MERN, Next.js, TypeScript, Django, FastAPI)
-- 🤖 Agentic AI, RAG & Multimodal AI Systems
+- 🚀 Full-Stack Engineering (Next.js, React, FastAPI, Django, Node.js)
+- 🤖 Agentic AI, RAG, LLM Applications & Multimodal Systems
 - 🌐 Blockchain & Smart Contracts (Solidity, IPFS)
 - ☁️ Cloud & DevOps (AWS, Azure, Docker, Kubernetes, Redis, Kafka)
 - 🔐 Scalable Systems, APIs, ETL Pipelines & NLP
@@ -32,6 +36,12 @@ I'm a **Full-Stack Developer** passionate about creating powerful AI/ML applicat
 ---
 
 ## 💼 Experience
+
+### 🧠 Software Development Engineer (SDE) Intern — *Azen Technologies, Delhi*
+**June 2026 – August 2026**
+- Built a multimodal video intelligence platform capable of retrieving surveillance events using natural language queries.
+- Integrated computer vision, embedding models, and vector search to enable semantic video retrieval.
+- Researched, benchmarked, and optimized state-of-the-art vision models for threat detection, safety compliance, and large-scale video analytics.
 
 ### 🧪 NLP and Full Stack Project Intern — *MetaInfoSci, Gurugram*
 **June 2025 – September 2025**
