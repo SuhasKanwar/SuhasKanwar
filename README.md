@@ -31,7 +31,7 @@ I enjoy solving challenging engineering problems—from large-scale backend syst
 
 | Degree | Institution | Duration | CGPA |
 |--------|-------------|----------|------|
-| B.Tech – Computer Science Engineering | BML Munjal University, Gurgaon | Aug 2023 – Present | 9.09 |
+| B.Tech – Computer Science Engineering | BML Munjal University, Gurgaon | Aug 2023 – Present | 9.08 |
 
 ---
 
