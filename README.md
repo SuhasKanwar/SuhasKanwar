@@ -102,7 +102,6 @@ Currently pursuing a **B.Tech in Computer Science Engineering** at **BML Munjal 
 <div align="center">
 
 <img src="https://github-readme-stats.vercel.app/api?username=SuhasKanwar&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=36BCF7&icon_color=FF2FD0&text_color=c9d1d9&include_all_commits=true&count_private=true&rank_icon=github" height="175" alt="stats"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SuhasKanwar&layout=donut&theme=radical&hide_border=true&bg_color=0d1117&title_color=36BCF7&text_color=c9d1d9&langs_count=6" height="175" alt="languages"/>
 
 <img src="https://streak-stats.demolab.com/?user=SuhasKanwar&theme=radical&hide_border=true&background=0d1117&ring=FF2FD0&fire=36BCF7&currStreakLabel=36BCF7&sideLabels=c9d1d9&dates=8b949e" width="70%" alt="streak"/>
 
