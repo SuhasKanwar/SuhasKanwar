@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560">
+  <defs>
+    <linearGradient id="line" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#36BCF7"/>
+      <stop offset="50%" stop-color="#8a2be2"/>
+      <stop offset="100%" stop-color="#ff2fd0"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#161b22"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      text { font-family: 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif; }
+      .mono { font-family: 'Fira Code','JetBrains Mono',Consolas,'DejaVu Sans Mono',monospace; }
+      .t { fill:#ffffff; font-weight:700; font-size:20px; }
+      .co { fill:#36BCF7; font-weight:600; font-size:15px; }
+      .d { fill:#8b949e; font-size:14px; }
+      .b { fill:#c9d1d9; font-size:14px; }
+      .flow { stroke-dasharray: 8 10; animation: flow 1.2s linear infinite; }
+      @keyframes flow { to { stroke-dashoffset: -18 } }
+      .ring { transform-box: fill-box; transform-origin: center; animation: ring 2.4s ease-out infinite; }
+      @keyframes ring { 0% { transform: scale(.6); opacity:.9 } 100% { transform: scale(2.4); opacity:0 } }
+      .card { opacity:0; animation: rise .7s cubic-bezier(.2,.8,.2,1) forwards; }
+      @keyframes rise { from { opacity:0; transform: translateX(30px) } to { opacity:1; transform: translateX(0) } }
+      .now { animation: blink 1.4s ease-in-out infinite; }
+      @keyframes blink { 50% { opacity:.35 } }
+    </style>
+  </defs>
+
+  <rect width="1000" height="560" rx="16" fill="#0d1117"/>
+  <rect x="1" y="1" width="998" height="558" rx="16" fill="none" stroke="#30363d"/>
+
+  <text x="40" y="44" class="mono" font-size="15" fill="#6e7681">$ git log --career --graph --oneline</text>
+
+  <!-- timeline spine -->
+  <line x1="80" y1="80" x2="80" y2="530" stroke="url(#line)" stroke-width="3" opacity=".35"/>
+  <line x1="80" y1="80" x2="80" y2="530" stroke="url(#line)" stroke-width="3" class="flow"/>
+
+  <!-- node 1 -->
+  <circle cx="80" cy="120" r="9" fill="#36BCF7" class="ring"/>
+  <circle cx="80" cy="120" r="9" fill="#36BCF7" filter="url(#glow)"/>
+  <g class="card" style="animation-delay:.2s">
+    <rect x="115" y="78" width="850" height="140" rx="12" fill="url(#card)" stroke="#36BCF7" stroke-opacity=".6"/>
+    <text x="140" y="110" class="t">Software Development Engineer Intern</text>
+    <text x="940" y="110" text-anchor="end" class="mono d">Jun 2026 → Aug 2026</text>
+    <text x="140" y="134" class="co">Azen Technologies · Delhi</text>
+    <text x="140" y="162" class="b">▸ Built a multimodal video-intelligence platform: find surveillance events via natural-language queries</text>
+    <text x="140" y="184" class="b">▸ Fused computer vision, embedding models &amp; vector search for semantic video retrieval</text>
+    <text x="140" y="206" class="b">▸ Benchmarked &amp; optimised SOTA vision models for threat detection and safety compliance</text>
+  </g>
+
+  <!-- node 2 -->
+  <circle cx="80" cy="282" r="9" fill="#8a2be2" class="ring" style="animation-delay:.8s"/>
+  <circle cx="80" cy="282" r="9" fill="#8a2be2" filter="url(#glow)"/>
+  <g class="card" style="animation-delay:.6s">
+    <rect x="115" y="240" width="850" height="118" rx="12" fill="url(#card)" stroke="#8a2be2" stroke-opacity=".7"/>
+    <text x="140" y="272" class="t">NLP &amp; Full-Stack Project Intern</text>
+    <text x="940" y="272" text-anchor="end" class="mono d">Jun 2025 → Sep 2025</text>
+    <text x="140" y="296" class="co" style="fill:#b48bff">MetaInfoSci · Gurugram</text>
+    <text x="140" y="324" class="b">▸ Transformer + topic-modelling NLP pipelines mining themes from Scopus, WoS &amp; more</text>
+    <text x="140" y="346" class="b">▸ Full-stack research analytics tool (Django · PostgreSQL · React) with live inference views</text>
+  </g>
+
+  <!-- node 3 -->
+  <circle cx="80" cy="422" r="9" fill="#ff2fd0" class="ring" style="animation-delay:1.6s"/>
+  <circle cx="80" cy="422" r="9" fill="#ff2fd0" filter="url(#glow)"/>
+  <g class="card" style="animation-delay:1s">
+    <rect x="115" y="380" width="850" height="118" rx="12" fill="url(#card)" stroke="#ff2fd0" stroke-opacity=".6"/>
+    <text x="140" y="412" class="t">Web Development Intern</text>
+    <text x="940" y="412" text-anchor="end" class="mono d">Nov 2024 → May 2025</text>
+    <text x="140" y="436" class="co" style="fill:#ff7ad9">USTART · Gurugram</text>
+    <text x="140" y="464" class="b">▸ Scalable backend APIs on PostgreSQL + Firebase for structured &amp; unstructured data</text>
+    <text x="140" y="486" class="b">▸ Location-based driver matching &amp; dynamic pricing with geospatial + rule-based logic</text>
+  </g>
+
+  <!-- HEAD marker -->
+  <text x="80" y="548" text-anchor="middle" class="mono now" font-size="12" fill="#2ea44f">● next: you?</text>
+</svg>

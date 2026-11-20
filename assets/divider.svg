@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="24" viewBox="0 0 1000 24">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#36BCF7" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#36BCF7"/>
+      <stop offset="50%" stop-color="#8a2be2"/>
+      <stop offset="80%" stop-color="#ff2fd0"/>
+      <stop offset="100%" stop-color="#ff2fd0" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-10%" y="-200%" width="120%" height="500%">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .dot { animation: run 3.2s cubic-bezier(.6,0,.4,1) infinite; }
+      @keyframes run { 0% { transform: translateX(60px); opacity:0 } 10% { opacity:1 } 90% { opacity:1 } 100% { transform: translateX(940px); opacity:0 } }
+    </style>
+  </defs>
+  <line x1="0" y1="12" x2="1000" y2="12" stroke="url(#g)" stroke-width="2" filter="url(#glow)"/>
+  <circle class="dot" cx="0" cy="12" r="4" fill="#ffffff" filter="url(#glow)"/>
+</svg>

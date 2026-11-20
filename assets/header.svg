@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#05010f"/>
+      <stop offset="55%" stop-color="#140533"/>
+      <stop offset="100%" stop-color="#2b0a4d"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffd36e"/>
+      <stop offset="45%" stop-color="#ff5ea8"/>
+      <stop offset="100%" stop-color="#8a2be2"/>
+    </linearGradient>
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#36BCF7"/>
+      <stop offset="50%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#ff5ea8"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;1 0;-1 0" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softglow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="sunStripes">
+      <rect x="0" y="0" width="1200" height="236"/>
+      <rect x="0" y="242" width="1200" height="10"/>
+      <rect x="0" y="258" width="1200" height="8"/>
+      <rect x="0" y="272" width="1200" height="6"/>
+      <rect x="0" y="282" width="1200" height="4"/>
+    </clipPath>
+    <clipPath id="ground"><rect x="0" y="290" width="1200" height="130"/></clipPath>
+    <style>
+      .mono { font-family: 'Fira Code','JetBrains Mono','SFMono-Regular',Consolas,'DejaVu Sans Mono',monospace; }
+      .gridH { stroke:#ff2fd0; stroke-opacity:.55; stroke-width:1.4; animation: march 1.6s linear infinite; }
+      @keyframes march { from { transform: translateY(0); } to { transform: translateY(24px); } }
+      .star { fill:#fff; animation: twinkle 3s ease-in-out infinite; }
+      @keyframes twinkle { 0%,100% { opacity:.15 } 50% { opacity:1 } }
+      .glitchA { animation: gA 3.2s infinite steps(1); }
+      .glitchB { animation: gB 3.2s infinite steps(1); }
+      @keyframes gA { 0%,86%,100% { transform: translate(0,0); opacity:0 } 87% { transform: translate(-6px,2px); opacity:.85 } 89% { transform: translate(5px,-3px); opacity:.85 } 91% { transform: translate(-3px,0); opacity:.85 } 93% { opacity:0 } }
+      @keyframes gB { 0%,86%,100% { transform: translate(0,0); opacity:0 } 87% { transform: translate(6px,-2px); opacity:.85 } 89% { transform: translate(-5px,3px); opacity:.85 } 91% { transform: translate(3px,1px); opacity:.85 } 93% { opacity:0 } }
+      .flicker { animation: flick 6s infinite; }
+      @keyframes flick { 0%,19%,21%,23%,55%,57%,100% { opacity:1 } 20%,22%,56% { opacity:.4 } }
+      .scan { animation: scan 5s linear infinite; }
+      @keyframes scan { from { transform: translateY(-40px) } to { transform: translateY(440px) } }
+      .role { opacity:0; animation: roles 16s infinite; }
+      .r2 { animation-delay: 4s } .r3 { animation-delay: 8s } .r4 { animation-delay: 12s }
+      @keyframes roles { 0% { opacity:0; transform: translateY(8px) } 3%,22% { opacity:1; transform: translateY(0) } 25%,100% { opacity:0; transform: translateY(-8px) } }
+      .sunpulse { animation: pulse 4s ease-in-out infinite; transform-origin: 600px 290px; }
+      @keyframes pulse { 0%,100% { transform: scale(1) } 50% { transform: scale(1.03) } }
+      .cursor { animation: blink 1s steps(1) infinite; }
+      @keyframes blink { 50% { opacity:0 } }
+      .float { animation: float 6s ease-in-out infinite; }
+      @keyframes float { 0%,100% { transform: translateY(0) } 50% { transform: translateY(-6px) } }
+    </style>
+  </defs>
+
+  <!-- sky -->
+  <rect width="1200" height="420" fill="url(#sky)"/>
+
+  <!-- stars -->
+  <g>
+    <circle class="star" cx="80" cy="40" r="1.4"/>
+    <circle class="star" cx="190" cy="95" r="1" style="animation-delay:.6s"/>
+    <circle class="star" cx="310" cy="30" r="1.6" style="animation-delay:1.2s"/>
+    <circle class="star" cx="420" cy="120" r="1" style="animation-delay:2s"/>
+    <circle class="star" cx="760" cy="50" r="1.3" style="animation-delay:.3s"/>
+    <circle class="star" cx="880" cy="110" r="1" style="animation-delay:1.7s"/>
+    <circle class="star" cx="990" cy="35" r="1.6" style="animation-delay:.9s"/>
+    <circle class="star" cx="1110" cy="85" r="1.1" style="animation-delay:2.4s"/>
+    <circle class="star" cx="1160" cy="160" r="1" style="animation-delay:1.4s"/>
+    <circle class="star" cx="40" cy="170" r="1" style="animation-delay:2.8s"/>
+    <circle class="star" cx="540" cy="22" r="1.2" style="animation-delay:1.9s"/>
+    <circle class="star" cx="660" cy="70" r="1" style="animation-delay:.1s"/>
+  </g>
+
+  <!-- synthwave sun -->
+  <g class="sunpulse">
+    <circle cx="600" cy="290" r="100" fill="url(#sun)" clip-path="url(#sunStripes)" opacity=".9" filter="url(#softglow)"/>
+  </g>
+
+  <!-- mountains -->
+  <path d="M0 290 L120 232 L220 272 L330 212 L470 290 Z" fill="#1a0638" stroke="#36BCF7" stroke-opacity=".5"/>
+  <path d="M730 290 L860 222 L960 267 L1080 202 L1200 262 L1200 290 Z" fill="#1a0638" stroke="#36BCF7" stroke-opacity=".5"/>
+
+  <!-- ground grid -->
+  <rect x="0" y="290" width="1200" height="130" fill="#0a0118"/>
+  <g clip-path="url(#ground)">
+    <g class="gridH">
+      <line x1="0" y1="272" x2="1200" y2="272"/>
+      <line x1="0" y1="296" x2="1200" y2="296"/>
+      <line x1="0" y1="320" x2="1200" y2="320"/>
+      <line x1="0" y1="344" x2="1200" y2="344"/>
+      <line x1="0" y1="368" x2="1200" y2="368"/>
+      <line x1="0" y1="392" x2="1200" y2="392"/>
+      <line x1="0" y1="416" x2="1200" y2="416"/>
+      <line x1="0" y1="440" x2="1200" y2="440"/>
+    </g>
+    <g stroke="#ff2fd0" stroke-opacity=".5" stroke-width="1.2">
+      <line x1="600" y1="290" x2="600" y2="420"/>
+      <line x1="560" y1="290" x2="400" y2="420"/><line x1="640" y1="290" x2="800" y2="420"/>
+      <line x1="520" y1="290" x2="200" y2="420"/><line x1="680" y1="290" x2="1000" y2="420"/>
+      <line x1="480" y1="290" x2="0" y2="420"/><line x1="720" y1="290" x2="1200" y2="420"/>
+      <line x1="440" y1="290" x2="-200" y2="420"/><line x1="760" y1="290" x2="1400" y2="420"/>
+      <line x1="400" y1="290" x2="-400" y2="420"/><line x1="800" y1="290" x2="1600" y2="420"/>
+    </g>
+  </g>
+  <line x1="0" y1="290" x2="1200" y2="290" stroke="#36BCF7" stroke-width="2" filter="url(#softglow)"/>
+
+  <!-- prompt line -->
+  <text x="600" y="58" text-anchor="middle" class="mono" font-size="16" fill="#36BCF7" opacity=".85">~/universe $ <tspan fill="#ffffff">./init --developer</tspan><tspan class="cursor" fill="#36BCF7"> █</tspan></text>
+
+  <!-- name with glitch -->
+  <g class="float">
+    <g class="glitchA"><text x="600" y="140" text-anchor="middle" class="mono" font-size="84" font-weight="800" letter-spacing="6" fill="#00f0ff">SUHAS KANWAR</text></g>
+    <g class="glitchB"><text x="600" y="140" text-anchor="middle" class="mono" font-size="84" font-weight="800" letter-spacing="6" fill="#ff2fd0">SUHAS KANWAR</text></g>
+    <text class="mono flicker" x="600" y="140" text-anchor="middle" font-size="84" font-weight="800" letter-spacing="6" fill="url(#nameGrad)" filter="url(#glow)">SUHAS KANWAR</text>
+  </g>
+
+  <!-- rotating roles -->
+  <g class="mono" font-size="22" font-weight="600" text-anchor="middle" fill="#ffffff">
+    <text class="role r1" x="600" y="190">⟨ Full-Stack Engineer /⟩</text>
+    <text class="role r2" x="600" y="190">⟨ AI / ML &amp; Agentic AI Developer /⟩</text>
+    <text class="role r3" x="600" y="190">⟨ DevOps · MLOps · Cloud Native /⟩</text>
+    <text class="role r4" x="600" y="190">⟨ Web3 &amp; Smart Contracts /⟩</text>
+  </g>
+
+  <!-- HUD corners -->
+  <g stroke="#36BCF7" stroke-width="2" fill="none" opacity=".8">
+    <path d="M20 50 V20 H50"/><path d="M1150 20 H1180 V50"/>
+    <path d="M20 370 V400 H50"/><path d="M1150 400 H1180 V370"/>
+  </g>
+  <g class="mono" font-size="12" fill="#36BCF7" opacity=".7">
+    <text x="50" y="390">SYS.ONLINE ● GURUGRAM, IN</text>
+    <text x="1150" y="390" text-anchor="end">BUILD v2026.11 // HACKATHONS WON: 3</text>
+  </g>
+
+  <!-- scanline -->
+  <rect class="scan" x="0" y="0" width="1200" height="40" fill="#36BCF7" opacity=".05"/>
+</svg>

@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="440" viewBox="0 0 1000 440">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#ffe9a6"/><stop offset="100%" stop-color="#d4a017"/></linearGradient>
+    <linearGradient id="silver" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#ffffff"/><stop offset="100%" stop-color="#9aa4b2"/></linearGradient>
+    <linearGradient id="bronze" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#ffc59a"/><stop offset="100%" stop-color="#b0652b"/></linearGradient>
+    <linearGradient id="lead" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#36BCF7"/><stop offset="100%" stop-color="#8a2be2"/></linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#fff" stop-opacity=".12"/>
+      <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="c1"><rect x="20" y="70" width="306" height="104" rx="12"/></clipPath>
+    <clipPath id="c2"><rect x="347" y="70" width="306" height="104" rx="12"/></clipPath>
+    <clipPath id="c3"><rect x="674" y="70" width="306" height="104" rx="12"/></clipPath>
+    <style>
+      text { font-family: 'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif; }
+      .mono { font-family: 'Fira Code','JetBrains Mono',Consolas,'DejaVu Sans Mono',monospace; }
+      .rank { font-weight:800; font-size:17px; }
+      .ev { fill:#e6edf3; font-weight:600; font-size:14px; }
+      .org { fill:#8b949e; font-size:12.5px; }
+      .tile { opacity:0; animation: pop .55s cubic-bezier(.2,1.4,.4,1) forwards; transform-box: fill-box; transform-origin: center; }
+      @keyframes pop { from { opacity:0; transform: scale(.85) } to { opacity:1; transform: scale(1) } }
+      .sweep { animation: sweep 3.5s ease-in-out infinite; }
+      @keyframes sweep { 0% { transform: translateX(-400px) } 60%,100% { transform: translateX(1100px) } }
+    </style>
+  </defs>
+
+  <rect width="1000" height="440" rx="16" fill="#0d1117"/>
+  <rect x="1" y="1" width="998" height="438" rx="16" fill="none" stroke="#30363d"/>
+  <text x="30" y="44" class="mono" font-size="15" fill="#6e7681">$ ls ~/trophy-cabinet --sort=glory</text>
+
+  <!-- Row 1: golds -->
+  <g class="tile" style="animation-delay:.1s">
+    <rect x="20" y="70" width="306" height="104" rx="12" fill="#161b22" stroke="url(#gold)" stroke-width="1.5"/>
+    <circle cx="56" cy="122" r="20" fill="url(#gold)"/><text x="56" y="128" text-anchor="middle" font-size="16" font-weight="800" fill="#3d2c00">1</text>
+    <text x="88" y="104" class="rank" fill="url(#gold)">1st Place</text>
+    <text x="88" y="128" class="ev">Hack Geek 1.0</text>
+    <text x="88" y="150" class="org">Geek Room · OpsTree Global</text>
+    <g clip-path="url(#c1)"><rect class="sweep" x="0" y="70" width="120" height="104" fill="url(#shine)"/></g>
+  </g>
+  <g class="tile" style="animation-delay:.25s">
+    <rect x="347" y="70" width="306" height="104" rx="12" fill="#161b22" stroke="url(#gold)" stroke-width="1.5"/>
+    <circle cx="383" cy="122" r="20" fill="url(#gold)"/><text x="383" y="128" text-anchor="middle" font-size="16" font-weight="800" fill="#3d2c00">1</text>
+    <text x="415" y="104" class="rank" fill="url(#gold)">1st Place</text>
+    <text x="415" y="128" class="ev">Techsprint 48-Hr Hackathon '25</text>
+    <text x="415" y="150" class="org">Graphic Era · Dehradun</text>
+    <g clip-path="url(#c2)"><rect class="sweep" x="0" y="70" width="120" height="104" fill="url(#shine)" style="animation-delay:.6s"/></g>
+  </g>
+  <g class="tile" style="animation-delay:.4s">
+    <rect x="674" y="70" width="306" height="104" rx="12" fill="#161b22" stroke="url(#gold)" stroke-width="1.5"/>
+    <circle cx="710" cy="122" r="20" fill="url(#gold)"/><text x="710" y="128" text-anchor="middle" font-size="16" font-weight="800" fill="#3d2c00">1</text>
+    <text x="742" y="104" class="rank" fill="url(#gold)">1st Place</text>
+    <text x="742" y="128" class="ev">ACIC Innoverse'36 Hackathon</text>
+    <text x="742" y="150" class="org">SGT University · 2025</text>
+    <g clip-path="url(#c3)"><rect class="sweep" x="0" y="70" width="120" height="104" fill="url(#shine)" style="animation-delay:1.2s"/></g>
+  </g>
+
+  <!-- Row 2 -->
+  <g class="tile" style="animation-delay:.55s">
+    <rect x="20" y="190" width="306" height="104" rx="12" fill="#161b22" stroke="url(#silver)" stroke-width="1.2"/>
+    <circle cx="56" cy="242" r="20" fill="url(#silver)"/><text x="56" y="248" text-anchor="middle" font-size="16" font-weight="800" fill="#2b2f36">2</text>
+    <text x="88" y="224" class="rank" fill="url(#silver)">2nd Place</text>
+    <text x="88" y="248" class="ev">Smart India Hackathon 2025</text>
+    <text x="88" y="270" class="org">SIH Internals</text>
+  </g>
+  <g class="tile" style="animation-delay:.7s">
+    <rect x="347" y="190" width="306" height="104" rx="12" fill="#161b22" stroke="url(#bronze)" stroke-width="1.2"/>
+    <circle cx="383" cy="242" r="20" fill="url(#bronze)"/><text x="383" y="248" text-anchor="middle" font-size="16" font-weight="800" fill="#3a1d05">3</text>
+    <text x="415" y="224" class="rank" fill="url(#bronze)">3rd Place</text>
+    <text x="415" y="248" class="ev">HackSmart Hackathon</text>
+    <text x="415" y="270" class="org">BatterySmart × AWS</text>
+  </g>
+  <g class="tile" style="animation-delay:.85s">
+    <rect x="674" y="190" width="306" height="104" rx="12" fill="#161b22" stroke="url(#bronze)" stroke-width="1.2"/>
+    <circle cx="710" cy="242" r="20" fill="url(#bronze)"/><text x="710" y="248" text-anchor="middle" font-size="16" font-weight="800" fill="#3a1d05">3</text>
+    <text x="742" y="224" class="rank" fill="url(#bronze)">2nd Runner-up</text>
+    <text x="742" y="248" class="ev">Code Kshetra 2.0 (National)</text>
+    <text x="742" y="270" class="org">Geek Room</text>
+  </g>
+
+  <!-- Row 3 -->
+  <g class="tile" style="animation-delay:1s">
+    <rect x="20" y="310" width="306" height="104" rx="12" fill="#161b22" stroke="url(#silver)" stroke-width="1.2"/>
+    <circle cx="56" cy="362" r="20" fill="url(#silver)"/><text x="56" y="368" text-anchor="middle" font-size="16" font-weight="800" fill="#2b2f36">2</text>
+    <text x="88" y="344" class="rank" fill="url(#silver)">2nd Place</text>
+    <text x="88" y="368" class="ev">Creative Robot Designing</text>
+    <text x="88" y="390" class="org">Innovation Festival · NSC Delhi '18</text>
+  </g>
+  <g class="tile" style="animation-delay:1.15s">
+    <rect x="347" y="310" width="306" height="104" rx="12" fill="#161b22" stroke="url(#lead)" stroke-width="1.2"/>
+    <circle cx="383" cy="362" r="20" fill="url(#lead)"/><text x="383" y="368" text-anchor="middle" font-size="15" font-weight="800" fill="#fff">⌘</text>
+    <text x="415" y="344" class="rank" fill="#36BCF7">Tech Team Lead</text>
+    <text x="415" y="368" class="ev">Student-Alumni Relationship</text>
+    <text x="415" y="390" class="org">Cell · BML Munjal University</text>
+  </g>
+  <g class="tile" style="animation-delay:1.3s">
+    <rect x="674" y="310" width="306" height="104" rx="12" fill="#161b22" stroke="url(#lead)" stroke-width="1.2"/>
+    <circle cx="710" cy="362" r="20" fill="url(#lead)"/><text x="710" y="368" text-anchor="middle" font-size="15" font-weight="800" fill="#fff">&lt;/&gt;</text>
+    <text x="742" y="344" class="rank" fill="#b48bff">Team Lead</text>
+    <text x="742" y="368" class="ev">College Fest Website</text>
+    <text x="742" y="390" class="org">BML Munjal University</text>
+  </g>
+</svg>
