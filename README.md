@@ -25,7 +25,7 @@
 
 <!-- ─────────────────────────────  WHOAMI  ───────────────────────────── -->
 <div align="center">
-  <img src="./assets/terminal.svg" width="100%" alt="neofetch-style terminal: Suhas Kanwar — SDE · AI/ML Engineer · Full-Stack · B.Tech CSE @ BML Munjal University · CGPA 9.09"/>
+  <img src="./assets/terminal.svg" width="100%" alt="neofetch-style terminal: Suhas Kanwar — SDE · AI/ML Engineer · Full-Stack · B.Tech CSE @ BML Munjal University · CGPA 9.08"/>
 </div>
 
 <details>
@@ -34,7 +34,7 @@
 
 I'm a **Software Engineer & AI Developer** who loves building **intelligent, scalable systems** — from large-scale backends and autonomous AI agents to computer vision, RAG pipelines and developer infrastructure. My interests span **full-stack engineering, multimodal AI, distributed systems, cloud infrastructure and blockchain**.
 
-Currently pursuing a **B.Tech in Computer Science Engineering** at **BML Munjal University (CGPA 9.09)**. I've shipped production-ready AI systems, cloud-native apps and decentralised finance platforms across startups and research projects.
+Currently pursuing a **B.Tech in Computer Science Engineering** at **BML Munjal University (CGPA 9.08)**. I've shipped production-ready AI systems, cloud-native apps and decentralised finance platforms across startups and research projects.
 
 </details>
 
@@ -145,6 +145,6 @@ PING suhas.kanwar@gmail.com: 56 data bytes
 
 <br/><br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:36BCF7,50:8a2be2,100:FF2FD0&height=120&section=footer&text=EOF&fontSize=28&fontColor=ffffff&fontAlignY=72" width="100%" alt="footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:36BCF7,50:8a2be2,100:FF2FD0&height=120&section=footer&fontSize=28&fontColor=ffffff&fontAlignY=72" width="100%" alt="footer"/>
 
 </div>
